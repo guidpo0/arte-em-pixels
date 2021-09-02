@@ -1,40 +1,32 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-  <meta charset="UTF-8">
-  
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Arte em Pixels</title>
-
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <header>
-    <h1 id="title">Paleta de Cores</h1>
-  </header>
-  <section>
-    <div id="color-palette">
-      <div class="color"></div>
-
-      <div class="color"></div>
-
-      <div class="color"></div>
-
-      <div class="color"></div>
-    </div>
-  
-    <button id="clear-board">Limpar</button>
-
-    <input id="board-size" min="1" type="number"></input>
-
-    <button id="generate-board">VQV</button>
-
-    <div id="pixel-board"></div>
-  </section>
-  
-<script src="script.js"></script>
-</body>
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arte em Pixels</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="title">Paleta de Cores</h1>
+    </header>
+    <section>
+      <main>
+        <div id="color-palette">
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+          <div class="color"></div>
+        </div>
+        <div class="settings">
+          <button id="clear-board">Limpar</button>
+          <input id="board-size" min="1" type="number"></input>
+          <button id="generate-board">VQV</button>
+        </div>
+      </main>
+      <aside id="pixel-board"></aside>
+    </section>
+    <script src="script.js"></script>
+  </body>
 </html>

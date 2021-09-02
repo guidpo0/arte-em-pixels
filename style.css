@@ -1,20 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  text-align: center;
+}
+
+.title {
+  margin: 50px;
+  font-size: 1.4em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: fixed;
+  top: 100px;
+}
+
 .color {
   height: 50px;
   width: 50px;
   display: inline-block;
   border: 1px solid black;
+  cursor: pointer;
+}
+
+#clear-board {
+  text-transform: uppercase;
+  font-size: 1.1em;
+  background-color: gray;
+  margin: 20px;
+  padding: 10px 5px;
+  font-weight: 900;
+  border-radius: 7px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#clear-board:active {
+  transform: scale(0.8);
+}
+
+#board-size {
+  margin: 8px;
+  padding: 8px 4px;
+  font-weight: 900;
+  border-radius: 7px;
+  border: 1px solid black;
+  width: 70px;
+}
+
+#generate-board {
+  text-transform: uppercase;
+  background-color: gray;
+  margin: 10px;
+  padding: 7px 3px;
+  font-weight: 900;
+  border-radius: 7px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+#generate-board:active {
+  transform: scale(0.8);
 }
 
 #pixel-board {
-  display: table;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px;
+  margin-top: 90px;
+  max-width: 80vw;
+  max-height: 80vw;
 }
 
 .tr {
-  display: table-row;
+  display: flex;
+  width: 100%;
 }
 
 .td {
-  display: table-cell;
+  display: flex;
+  width: 100%;
+  height: 100%;
   border: 1px solid black;
 }
 
@@ -22,7 +113,9 @@
   background-color: white;
 }
 
-#clear-board {
-  margin-top: 10px;
-  margin-bottom: 10px;
+@media only screen and ( min-width : 768px ) {
+
+  .title {
+    font-size: 2.2em;
+  }
 }
