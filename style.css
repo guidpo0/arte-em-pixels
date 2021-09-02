@@ -1,0 +1,28 @@
+.color {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+  border: 1px solid black;
+}
+
+#pixel-board {
+  display: table;
+}
+
+.tr {
+  display: table-row;
+}
+
+.td {
+  display: table-cell;
+  border: 1px solid black;
+}
+
+.white {
+  background-color: white;
+}
+
+#clear-board {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
