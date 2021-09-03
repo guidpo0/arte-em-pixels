@@ -5,7 +5,9 @@ Projeto desenvolvido durante a formação em desenvolvedor Web Full Stack pela T
 # Boas vindas ao repositório do projeto Arte com Pixels!
 
 Esta aplicação busca permitir ao usuário trabalhar sua criatividade por meio de uma paleta de cores, são oferecidas 5 cores aleatórias e o tamanho do quadro pode ser definido pelo usuário.
+
 Lembrando que esta aplicação corresponde aos meus esforços para melhorar minhas hard skills e soft skills sinta-se à vontade para explorá-la! Feedbacks construtivos são sempre bem vindos!
+
 Abaixo você poderá encontrar mais informações técnicas sobre este projeto.
 
 ---
